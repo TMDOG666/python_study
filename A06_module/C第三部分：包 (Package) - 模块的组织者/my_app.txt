@@ -1,0 +1,10 @@
+my_app/
+├── __init__.py           # 表明 my_app 是一个包
+├── utils/                # 这是一个子包 (sub-package)
+│   ├── __init__.py
+│   └── string_helper.py  # string_helper 模块
+└── math/                 # 这是另一个子包
+    ├── __init__.py
+    └── calculators.py    # calculators 模块
+
+main.py                   # 我们的主程序文件，在 my_app 外面
